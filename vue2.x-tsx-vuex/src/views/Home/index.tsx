@@ -1,7 +1,9 @@
 import { Vue, Component } from 'vue-property-decorator'
 import HelloWorld from '@/components/HelloWorld';
+
 import { getModule } from 'vuex-module-decorators'
 import HomeVuexModule from '@/store/modules/Home'
+
 const HomeModule = getModule(HomeVuexModule)
 
 import HomeStyle from './index.module.scss'
